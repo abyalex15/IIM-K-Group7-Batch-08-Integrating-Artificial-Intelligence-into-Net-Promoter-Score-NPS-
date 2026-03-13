@@ -11,7 +11,7 @@ Team members
 
 
 
-We created a prototype for this project to demonstrate the power of artificial intelligence that can be used to tackcle one of the most difficult issues in the healthcare sector
+We created a prototype for this project to demonstrate the power of artificial intelligence that can be used to tackle one of the most difficult issues in the healthcare sector
 
  Primary Deliverables: 
 •	AI-NPS Implementation Roadmap: Comprehensive guide for healthcare organizations planning AI integration 
