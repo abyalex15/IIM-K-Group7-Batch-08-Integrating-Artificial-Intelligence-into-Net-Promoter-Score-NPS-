@@ -2,6 +2,7 @@
 This is part of our Capestone project by IIM-K Group7 / Batch 08 "AI in healthcare Management Programme" were we Integrating Artificial Intelligence into Net Promoter Score (NPS) Systems for Enhanced Customer Insight and Predictive Analytics
 
 Team members
+
 1	Dr Aby Alex	abyalex15@gmail.com
 2	Mrs Sathya Anandakumar	sathyaganand@gmail.com
 3	Gunjeet Sehrawat	gunjeetsehrawat@gmail.com
@@ -30,7 +31,9 @@ Backend & API: Node.js and Express.js.
 Database: SQLite3 (local, lightweight nps_feedback.db).
 Bot Integration: node-telegram-bot-api to talk to Telegram.
 AI / NLP Engine: Google Generative AI (Gemini 2.5 Flash) via @google/generative-ai.
-🌊 2. Data Flow Pipeline
+
+
+2. Data Flow Pipeline
 Input: Patients chat with the Telegram Bot using either Text Messages, Voice Notes, or Explicit NPS Inline Buttons (0 to 10).
 AI Processing:
 Text goes straight to the Gemini AI API.
@@ -39,7 +42,7 @@ The AI acts dynamically to transcribe the voice, calculate the Sentiment/NPS Cat
 Storage: The structured data (Patient Name, Feedback, Score, Category, Insight) is securely recorded in the local SQLite database.
 Dashboard: The React App polls the Express backend every 10 seconds. The backend calculates total aggregates (mathematical % for Promoters/Detractors to get the true NPS score) on-the-fly from the DB.
 Visualization: The dashboard visualizes these stats using Recharts and enables actionable filtering for the hospital admins.
-📡 3. Intercommunication Protocols
+ 3. Intercommunication Protocols
 Patient ↔ Telegram Bot Server: Secure HTTPS.
 Node Backend ↔ Telegram API: HTTPS Long Polling.
 Backend ↔ Gemini AI API: RESTful API via HTTPS.
