@@ -29,7 +29,7 @@ Available Features:
 
 
 
-.env file is not uploaded for preventing api key exposur and prompt injection through telegram Bot
+.env file is not uploaded for preventing api key exposure and prompt injection through telegram Bot
 
 
 Contact : abyalex15@gmail.com
